@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #004d80;
+}
+
+a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgb(23, 198, 163) ;
+    padding: 1rem;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 1rem;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00;
+}
+
+/* Main Container */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Contact Info Section */
+.contact-info {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #ffcc00;
+    display: inline-block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    flex-basis: 30%;
+    margin-bottom: 1.5rem;
+}
+
+.contact-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-item p {
+    color: #555;
+}
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+}
+
+.social-media h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #ffcc00;
+    display: inline-block;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.social-media ul li a {
+    font-size: 1.5rem;
+    color: #004d80;
+}
+
+.social-media ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .contact-methods {
+        flex-direction: column;
+    }
+
+    .contact-item {
+        flex-basis: 100%;
+    }
+}

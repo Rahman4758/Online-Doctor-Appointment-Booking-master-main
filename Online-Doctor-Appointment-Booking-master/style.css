@@ -1,0 +1,177 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgb(23, 198, 163) ;
+    transition: transform 0.5s ease;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 1rem;
+    font-weight: 700;
+}
+
+
+.nav-link:hover {
+    color: #f0f0f0;
+    
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;base64,...'); /* Optionally customize */
+}
+
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header h1 {
+    
+    color: #004d80;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 40px;
+}
+
+.intro p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Services Section */
+.services h2 {
+    font-size: 28px;
+    color: #004d80; 
+    margin-bottom: 20px;
+}
+
+.service {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #004d80;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Values Section */
+.values h2 {
+    font-size: 28px;
+    color: #004d80;
+    margin-bottom: 20px;
+}
+
+.values ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.values ul li {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #004d80;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.values ul li strong {
+    color: #004d80;
+    font-size: 18px;
+}
+
+.values ul li p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* Commitment Section */
+.commitment h2 {
+    font-size: 28px;
+    color: #004d80;
+    margin-bottom: 20px;
+}
+
+.commitment p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Vision Section */
+.vision h2 {
+    font-size: 28px;
+    color: #004d80;
+    margin-bottom: 20px;
+}
+
+.vision p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .services h2, .values h2, .commitment h2, .vision h2 {
+        font-size: 24px;
+    }
+
+    .service h3 {
+        font-size: 20px;
+    }
+
+    .service p, .commitment p, .vision p {
+        font-size:14px;
+    }
+}

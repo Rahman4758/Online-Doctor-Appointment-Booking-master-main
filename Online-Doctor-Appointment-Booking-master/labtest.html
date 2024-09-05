@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tests</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="form-modal" class="form-modal">
+        <div class="form-modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 style="margin-bottom:20px">Schedule a Test Appointment</h2>
+            <form action="#" method="POST" class="test-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="time-slot">Preferred Time Slot</label>
+                    <select id="time-slot" name="time-slot" required>
+                        <option value="">Select a Time Slot</option>
+                        <option value="9am-11am">9 AM - 11 AM</option>
+                        <option value="11am-1pm">11 AM - 1 PM</option>
+                        <option value="2pm-4pm">2 PM - 4 PM</option>
+                        <option value="4pm-6pm">4 PM - 6 PM</option>
+                    </select>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="test">
+            <h2>Complete Blood Count (CBC)</h2>
+            <p>A Complete Blood Count is a comprehensive test that evaluates the overall health by measuring different components of the blood, including red blood cells, white blood cells, hemoglobin, and platelets. It helps diagnose conditions like anemia, infections, and many other disorders.</p>
+            <button class="open-form-btn">Book Now</button>
+        </div>
+
+        <div class="test">
+            <h2>Lipid Panel</h2>
+            <p>A Lipid Panel measures the levels of different types of cholesterol and triglycerides in your blood. This test is essential for assessing your risk of developing cardiovascular diseases, including heart attacks and strokes.</p>
+            <button class="open-form-btn">Book Now</button>
+        </div>
+
+        <div class="test">
+            <h2>Basic Metabolic Panel (BMP)</h2>
+            <p>The Basic Metabolic Panel provides important information about your body’s metabolism, including blood glucose levels, calcium levels, and electrolyte balance. It helps in diagnosing conditions like diabetes, kidney disease, and imbalances in blood chemistry.</p>
+            <button class="open-form-btn">Book Now</button>
+        </div>
+
+        <div class="test">
+            <h2>Thyroid Function Tests</h2>
+            <p>Thyroid Function Tests measure levels of thyroid hormones in the blood to assess how well your thyroid gland is working. These tests are crucial in diagnosing thyroid disorders such as hypothyroidism and hyperthyroidism.</p>
+            <button class="open-form-btn">Book Now</button>
+        </div>
+
+        <div class="test">
+            <h2>Hemoglobin A1c (HbA1c)</h2>
+            <p>The Hemoglobin A1c test measures your average blood sugar levels over the past two to three months. It is primarily used to diagnose and monitor diabetes, helping you and your healthcare provider manage your condition effectively.</p>
+            <button class="open-form-btn">Book Now</button>
+        </div>
+        <div class="test">
+            <h2>Liver Function Tests (LFTs)</h2>
+
+<p>Liver Function Tests measure various enzymes, proteins, and substances produced by the liver to assess its health and functionality. These tests are essential for diagnosing liver diseases, such as hepatitis, cirrhosis, and liver damage due to medications or alcohol.</p>
+<button class="open-form-btn">Book Now</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
